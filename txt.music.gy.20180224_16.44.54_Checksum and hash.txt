@@ -1,0 +1,11 @@
+﻿File path and name	Name	Type	Size	Bytes	Modified	Attributes	Copies	CRC32	CRC64	MD5	RIPEMD160	SHA1	SHA256	SHA3_256	Directory content	% size	
+C:\Users\Dom - Massimo\Desktop\NiceHashMinerLegacy-1.8.2.0-Pre2 (1)\NiceHashMinerLegacy-1.8.2.0-Pre2\codegen\genBins.py	genBins.py	.py	978 B	978	2017-11-27 05:26:42	A	1	7028FC66	8CC4D2838AD2F434	E569E34E72BA4A07D03642CA8C752B77	E1AAA39AC1306806BE952E619FEFBF6B4E203853	80D20F456DA24C9FAC3A4DD2C9FABCC2A4F40E1D	7A981F50C0027B05466E2CF5A817671C633151C4931A4A7E11D9B545B6768034	2ED72DF9077ECB616CCD1C6D0B5C2062B44709F5FCDB0A96E57F03D560B9857B		100%	
+					
+					
+					
+					
+					
+Checked (HEX) 1 element(s), 978 B [978 B]
+Processed 1 of 1 items: 1 files, 0 directories, 0 errors
+Size 978 B, date 2017-11-27 05:26:42, potential compression 90%
+45 ms total time @ 21.2 KB/s
