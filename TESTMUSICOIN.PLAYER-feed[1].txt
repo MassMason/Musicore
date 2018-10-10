@@ -1,0 +1,137 @@
+<true:add_musicoin:wallet_player:PPP/contract_ACCEPTED ! ! !
+<iframe id="embedded-player-preview-frame" src="https://musicoin.org/embedded-player/0xda5ca0dc061c666ec0b99a69ad12ad563a66a94e?embedded=true&autoQueue=true&preview=true"></iframe>!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="wb:webmaster" content="388a22fbc545b0b0" />
+<link rel="stylesheet" href="/dependencies/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/dependencies/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/dependencies/jquery/css/jquery-ui.css">
+<link rel="stylesheet" href="/dependencies/messg-2.1.0/index.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+<link rel="shortcut icon" href="/favicon.ico">
+
+<script src="/dependencies/jquery/js/jquery-3.1.1.js"></script>
+<script src="/dependencies/jquery/js/jquery-ui.js"></script>
+<script src="/dependencies/bootstrap/js/bootstrap.min.js"></script>
+<script src="/dependencies/messg-2.1.0/index.js"></script>
+<script src="/dependencies/prefixfree/prefixfree.min.js"></script>
+
+<link rel="stylesheet" href="/styles/shared-style.css">
+<link rel="stylesheet" href="/styles/like.css">
+<link rel="stylesheet" href="/styles/toggle.css">
+<link rel="stylesheet" href="/styles/modal.css">
+<link rel="stylesheet" href="/styles/tips.css">
+<link rel="stylesheet" href="/styles/play-queue.css">
+
+<script src="/js/dynamic-elements.js"></script>
+<script src="/js/musicoin.js"></script>
+<script src="/js/utils.js"></script>
+<script src="/js/tips.js"></script>
+<script src="/js/following.js"></script>
+<script src="/js/track-messages.js"></script>
+<script src="/js/more.js"></script>
+<script src="/js/hero.js"></script>
+<script src="/js/modal.js"></script>
+<script src="/js/format.js"></script>
+<script src="/js/auto-complete.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92055754-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    
+
+
+
+    
+
+
+    <title>Musicoin</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+        }
+
+        #mainFrame {
+            min-height: 100%;
+            width: 100%;
+            height: 100%;
+            flex-grow: 1;
+        }
+
+        #mainSection {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        #outer {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: #eee;
+        }
+
+        #playerFrame {
+            height: 64px;
+            position: fixed;
+            bottom:0;
+            left:0;
+            width: 100%;
+        }
+
+        #playerFill {
+            min-height: 64px;
+        }
+    </style>
+</head>
+<body onload="setupPopWatch()">
+<iframe id=playerFrame src="/player" frameborder="0" class="show-on-play"></iframe>
+
+<div id="outer">
+    <div id=mainSection>
+        <iframe id=mainFrame src="/feed" frameborder="0" onload="mainFrameLocationChange()"></iframe>
+    </div>
+    <div id=playerFill class="show-on-play"></div>
+</div>
+
+<script>
+    function setupPopWatch() {
+      var mainFrame = document.getElementById("mainFrame");
+      window.onpopstate = function(e){
+        if (window.location.pathname.startsWith("/nav")) {
+          mainFrame.src =  window.location.pathname.substr(4);
+        }
+      };
+    }
+
+    function mainFrameLocationChange() {
+      var mainFrame = document.getElementById("mainFrame");
+      var mainLocation = mainFrame.contentWindow.location;
+      window.history.pushState({
+        "html":mainFrame.contentWindow.html,
+        "pageTitle":mainFrame.contentWindow.title
+      },
+        "",
+        "/nav" + mainLocation.pathname + mainLocation.search);
+    }
+
+    function showMessage(msg, type, timeout) {
+      new Message(msg, type, timeout);
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="wb:webmaster" content="388a22fbc545b0b0" />
+<link rel="stylesheet" href="/dependencies/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/dependencies/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/dependencies/jquery/css/jquery-ui.css">
+<link rel="stylesheet" href="/dependencies/messg-2.1.0/index.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+<link rel="shortcut icon" href="/favicon.ico">
+
+<script src="/dependencies/jquery/js/jquery-3.1.1.js"></script>
+<script src="/dependencies/jquery/js/jquery-ui.js"></script>
+<script src="/dependencies/bootstrap/js/bootstrap.min.js"></script>
+<script src="/dependencies/messg-2.1.0/index.js"></script>
+<script src="/dependencies/prefixfree/prefixfree.min.js"></script>
+
+<link rel="stylesheet" href="/styles/shared-style.css">
+<link rel="stylesheet" href="/styles/like.css">
+<link rel="stylesheet" href="/styles/toggle.css">
+<link rel="stylesheet" href="/styles/modal.css">
+<link rel="stylesheet" href="/styles/tips.css">
+<link rel="stylesheet" href="/styles/play-queue.css">
+
+<script src="/js/dynamic-elements.js"></script>
+<script src="/js/musicoin.js"></script>
+<script src="/js/utils.js"></script>
+<script src="/js/tips.js"></script>
+<script src="/js/following.js"></script>
+<script src="/js/track-messages.js"></script>
+<script src="/js/more.js"></script>
+<script src="/js/hero.js"></script>
+<script src="/js/modal.js"></script>
+<script src="/js/format.js"></script>
+<script src="/js/auto-complete.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92055754-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    
+
+<meta content="record, sounds, share, sound, audio, tracks, music, musicoin" name="keywords">
+
+<!-- Open Graph -->
+<meta name="title" content="Mass Mason - Gangsta Lullaby by Mass Mason">
+<meta property="og:title" content="Mass Mason - Gangsta Lullaby by Mass Mason">
+<meta name="description" content=" Mass Mason - Gangsta Lullaby (prod. by Skilteck)
+*Album : Awaken The Beast
+For more info. visit :
+- themassmason.com
+-  musicoin.money
+- youtube.com/holyrecordz">
+<meta property="og:type" content="song">
+<meta property="og:site_name" content="Musicoin"/>
+<meta property="og:description" content=" Mass Mason - Gangsta Lullaby (prod. by Skilteck)
+*Album : Awaken The Beast
+For more info. visit :
+- themassmason.com
+-  musicoin.money
+- youtube.com/holyrecordz">
+<meta property="og:image" content="https://musicoin.org/media/cf39188c8cd5c86768b31ea5d71a6ddcce41f97a0f3e0fdc513d91f082bb12bb764b4269cf8b3d6118483c229e66">
+<meta property="og:url" content="https://musicoin.org/nav/track/0x001f3402f877cec02fe1dc0337f9f625355ca5b0">
+<meta property="fb:app_id" content="1845789109028247"/>
+
+<meta name="medium"         content="video">
+<meta name="video_height"   content="150">
+<meta name="video_width"    content="435">
+<meta name="video_type"     content="application/x-shockwave-flash">
+
+<meta property="og:video" content="https://musicoin.org/embedded-player/0x001f3402f877cec02fe1dc0337f9f625355ca5b0?embedded=true&autoQueue=true">
+<meta property="og:video:secure_url" content="https://musicoin.org/embedded-player/0x001f3402f877cec02fe1dc0337f9f625355ca5b0?embedded=true&autoQueue=true">
+<meta property="og:video:type" content="text/html">
+<meta property="og:video:height" content="150">
+<meta property="og:video:width" content="435">
+
+<!-- Twitter card -->
+<!-- <meta name="twitter:card" content="summary"> -->
+<meta name="twitter:site" content="@musicoins">
+<meta property="twitter:card" content="player">
+<meta property="twitter:player" content="https://musicoin.org/embedded-player/0x001f3402f877cec02fe1dc0337f9f625355ca5b0?embedded=true&autoQueue=true">
+<meta property="twitter:player:height" content="150">
+<meta property="twitter:player:width" content="435">
+
+<link rel="alternate" type="application/json+oembed" href="https://musicoin.org/services/oembed?url=https://musicoin.org/nav/track/0x001f3402f877cec02fe1dc0337f9f625355ca5b0&format=json" title="Mass Mason - Gangsta Lullaby" />
+<link rel="alternate" type="text/xml+oembed" href="https://musicoin.org/services/oembed?url=https://musicoin.org/nav/track/0x001f3402f877cec02fe1dc0337f9f625355ca5b0&format=xml" title="Mass Mason - Gangsta Lullaby" />
+
+<noscript><article itemscope itemtype="http://schema.org/MusicRecording">
+  <header>
+    <h1 itemprop="name"><a itemprop="url" href="/nav/track/0x001f3402f877cec02fe1dc0337f9f625355ca5b0">Mass Mason - Gangsta Lullaby</a>
+    by <a href="/artist/">Mass Mason</a></h1>
+    published on <time pubdate>2012-01-20T22:06:27Z</time>
+
+      <div itemscope itemprop="audio" itemtype="http://schema.org/AudioObject"><meta itemprop="embedUrl" content="https://musicoin.org/embedded-player/0x001f3402f877cec02fe1dc0337f9f625355ca5b0" /><meta itemprop="height" content="400px" /></div>
+      <div itemscope itemprop="byArtist" itemtype="http://schema.org/MusicGroup"><meta itemprop="name" content="The Bugle" /><meta itemprop="url" content="/artist/" /></div>
+      <div itemscope itemprop="provider" itemtype="http://schema.org/Organization"><meta itemprop="name" content="Musicoin" /><meta itemprop="image" content="https://musicoin.org/images/logon.svg" /></div>
+  </header>
+  <p>
+    <img src="https://musicoin.org/media/cf39188c8cd5c86768b31ea5d71a6ddcce41f97a0f3e0fdc513d91f082bb12bb764b4269cf8b3d6118483c229e66" width="500" height="500" alt="Mass Mason - Gangsta Lullaby" itemprop="image">
+     Mass Mason - Gangsta Lullaby (prod. by Skilteck)
+*Album : Awaken The Beast
+For more info. visit :
+- themassmason.com
+-  musicoin.money
+- youtube.com/holyrecordz
+    <meta itemprop="description" content=" Mass Mason - Gangsta Lullaby (prod. by Skilteck)
+*Album : Awaken The Beast
+For more info. visit :
+- themassmason.com
+-  musicoin.money
+- youtube.com/holyrecordz" />
+  </p>
+</article>
+</noscript>
+
+
+
+
+
+    
+
+
+    <title>Musicoin</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: black;
+            color: white;
+        }
+
+        #mainFrame {
+            min-height: 100%;
+            width: 100%;
+            height: 100%;
+            flex-grow: 1;
+        }
+
+        #mainSection {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        #outer {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: #eee;
+        }
+
+        #playerFrame {
+            height: 64px;
+            position: fixed;
+            bottom:0;
+            left:0;
+            width: 100%;
+        }
+
+        #playerFill {
+            min-height: 64px;
+        }
+    </style>
+</head>
+<body onload="setupPopWatch()">
+<iframe id=playerFrame src="/player" frameborder="0" class="show-on-play"></iframe>
+
+<div id="outer">
+    <div id=mainSection>
+        <iframe id=mainFrame src="/track/0x001f3402f877cec02fe1dc0337f9f625355ca5b0" frameborder="0" onload="mainFrameLocationChange()"></iframe>
+    </div>
+    <div id=playerFill class="show-on-play"></div>
+</div>
+
+<script>
+    function setupPopWatch() {
+      var mainFrame = document.getElementById("mainFrame");
+      window.onpopstate = function(e){
+        if (window.location.pathname.startsWith("/nav")) {
+          mainFrame.src =  window.location.pathname.substr(4);
+        }
+      };
+    }
+
+    function mainFrameLocationChange() {
+      var mainFrame = document.getElementById("mainFrame");
+      var mainLocation = mainFrame.contentWindow.location;
+      window.history.pushState({
+        "html":mainFrame.contentWindow.html,
+        "pageTitle":mainFrame.contentWindow.title
+      },
+        "",
+        "/nav" + mainLocation.pathname + mainLocation.search);
+    }
+
+    function showMessage(msg, type, timeout) {
+      new Message(msg, type, timeout);
+    }
+</script>
+</body>
+
+</html>

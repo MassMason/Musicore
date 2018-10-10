@@ -1,0 +1,181 @@
+#input : test @Bot_MC1
+launch.app
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @MassMason
+Sign out
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+ Watch 0
+ Star 0  Fork 0 MassMason/Perform.log
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Browse files
+circus_tent Added .gitattributes & .gitignore files
+
+ master
+Massimo D'AntonioMassimo D'Antonio
+Massimo D'Antonio authored and Massimo D'Antonio committed on Dec 29, 2017
+0 parents commit ea18b2bd88317696fb50d65e3eee751beaf907ba
+Unified Split
+Showing  2 changed files  with 64 additions and 0 deletions.
+ 
+17  .gitattributes
+@@ -0,0 +1,17 @@
+ # Auto detect text files and perform LF normalization
+ * text=auto
+
+ # Custom for Visual Studio
+ *.cs     diff=csharp
+
+ # Standard to msysgit
+ *.doc	 diff=astextplain
+ *.DOC	 diff=astextplain
+ *.docx diff=astextplain
+ *.DOCX diff=astextplain
+ *.dot  diff=astextplain
+ *.DOT  diff=astextplain
+ *.pdf  diff=astextplain
+ *.PDF	 diff=astextplain
+ *.rtf	 diff=astextplain
+ *.RTF	 diff=astextplain
+ 
+47  .gitignore
+@@ -0,0 +1,47 @@
+ # Windows image file caches
+ Thumbs.db
+ ehthumbs.db
+
+ # Folder config file
+ Desktop.ini
+
+ # Recycle Bin used on file shares
+ $RECYCLE.BIN/
+
+ # Windows Installer files
+ *.cab
+ *.msi
+ *.msm
+ *.msp
+
+ # Windows shortcuts
+ *.lnk
+
+ # =========================
+ # Operating System Files
+ # =========================
+
+ # OSX
+ # =========================
+
+ .DS_Store
+ .AppleDouble
+ .LSOverride
+
+ # Thumbnails
+ ._*
+
+ # Files that might appear in the root of a volume
+ .DocumentRevisions-V100
+ .fseventsd
+ .Spotlight-V100
+ .TemporaryItems
+ .Trashes
+ .VolumeIcon.icns
+
+ # Directories potentially created on remote AFP share
+ .AppleDB
+ .AppleDesktop
+ Network Trash Folder
+ Temporary Items
+ .apdisk
+ Lock conversation
+1 comment on commit ea18b2b
+@MassMason
+  Owner
+MassMason commented on ea18b2b 10 seconds from now
+#input - xcode : Musicore/ET.exe/Play_MC1.exe
+input :100 (MC1) = MassMason (musicore.app_bot_html_API:KEY$)
+Begin #sha1 : xcode . . .
+@@ -0,0 +1,47 @@
+
+Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+Folder config file
+Desktop.ini
+
+Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+Windows shortcuts
+*.lnk
+
+=========================
+Operating System Files
+=========================
+OSX
+=========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+Thumbnails
+._*
+
+Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+#xcode
+
+ @MassMason
+     
+ Write  Preview
+ 
+Leave a comment
+Choose Files Attach files by dragging & dropping, selecting them, or pasting from the clipboard.  Styling with Markdown is supported
+Comment on this commit
+   Subscribe  You’re not receiving notifications from this thread.
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
+<musicore>
+<xcode>
+<app>
+<bot>
+MC1
+$ musicore.exe
+True = value (function) *MC$
